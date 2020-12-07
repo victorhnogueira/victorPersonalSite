@@ -73,7 +73,7 @@ export default function Home() {
           </div>
 
           <div className="w-full lg:w-2/5">
-            <img src="/victorhnogueira.jpg" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
+            <img src="/victorhnogueira-min.jpg" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
           </div>
 
 
