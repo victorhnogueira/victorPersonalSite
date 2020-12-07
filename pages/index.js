@@ -74,14 +74,7 @@ export default function Home() {
           </div>
 
           <div className="w-full lg:w-2/5">
-            <Image
-              src="/victorhnogueira.jpg"
-              alt="Victor Hugo Nogueira"
-              layout="responsive"
-              width={200}
-              height={270}
-              className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
-            />
+            <img src="https://i.imgur.com/noYnJPt.jpg" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
           </div>
 
 
