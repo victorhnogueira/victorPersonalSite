@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
+import Image from 'next/image'
 
 export default function Home() {
 
@@ -35,8 +36,10 @@ export default function Home() {
       <Head>
         <title>Victor Nogueira</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name = "description" content = "Desenvolvedor Javascript Fullstack, Green Belt" />
+        <meta name="robot" content="Index,Follow" />
+        <meta name="keywords" content="programador, javascript, greenbelt, gestão de projetos, metodologias ageis" />
       </Head>
-
 
       <div className="w-full h-full">
         <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
@@ -71,7 +74,14 @@ export default function Home() {
           </div>
 
           <div className="w-full lg:w-2/5">
-            <img src="https://i.imgur.com/noYnJPt.jpg" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
+            <Image
+              src="/victorhnogueira.jpg"
+              alt="Victor Hugo Nogueira"
+              layout="responsive"
+              width={200}
+              height={270}
+              className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
+            />
           </div>
 
 
