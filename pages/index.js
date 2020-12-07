@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
-import Image from 'next/image'
 
 export default function Home() {
 
@@ -74,7 +73,7 @@ export default function Home() {
           </div>
 
           <div className="w-full lg:w-2/5">
-            <img src="https://i.imgur.com/noYnJPt.jpg" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
+            <img src="/victorhnogueira.jpg" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
           </div>
 
 
